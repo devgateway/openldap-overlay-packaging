@@ -1,0 +1,15 @@
+Source: ansible-openldap-overlay
+Section: admin
+Priority: optional
+Maintainer: Styopa Semenukha <ssemenukha@developmentgateway.org>
+Build-Depends:
+ debhelper (>= 11),
+ markdown
+Standards-Version: 4.1.3
+Homepage: https://github.com/devgateway/ansible-module-openldap-overlay
+
+Package: ansible-openldap-overlay
+Architecture: all
+Depends: ${misc:Depends}, ansible
+Description: OpenLDAP overlay configuration module for Ansible
+ Module plugin for Ansible to add and configure OpenLDAP overlays.

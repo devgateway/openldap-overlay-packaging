@@ -1,0 +1,5 @@
+ansible-openldap-overlay (0.1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Styopa Semenukha <ssemenukha@developmentgateway.org>  Mon, 16 Apr 2018 13:49:26 -0400
